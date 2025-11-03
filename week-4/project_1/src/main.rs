@@ -34,7 +34,7 @@ fn main() {
     let x:f32 = ((-1.0 * b) + s) / (2.0 * a);
     let y:f32 = ((-1.0 * b) - s) / (2.0 * a);
 
-    println!("\nEquation: {}x^2 + {}x {} = 0",a, b, c );
+    println!("\nEquation: {}x^2 - {}x + {} = 0",a, b, c );
     println!("roots are {} and {}", x, y ); 
     }
 
